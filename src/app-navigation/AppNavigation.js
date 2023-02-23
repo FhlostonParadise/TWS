@@ -2,9 +2,7 @@ import React from 'react';
 import { Route, Routes } from "react-router-dom";
 // internal
 import BackToTop from '../components/BackToTop';
-
 import ContextProvider from '../components/context/ContextProvider';
-import Home from '../components/Home/Home';
 import HomeThree from '../components/HomeThree/HomeThree';
 import HomeTwo from '../components/HomeTwo/HomeTwo';
 import About from '../components/Pages/About/About';
