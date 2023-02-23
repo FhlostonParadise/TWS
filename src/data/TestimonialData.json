@@ -1,0 +1,37 @@
+{
+    "testimonialData":[
+        {
+            "id": 1,
+            "title": "Motivational Saying",
+            "text1" : "Live, Laugh, Love",
+            "text2" : "Ok, maybe not that kind of motivation.",
+            "text3": "Maybe from a book?",
+            "reviewer": "Author",
+            "design" : "Title of Book",
+            "img" : "/assets/img/bg/book-solid.png"
+
+        },
+        {
+            "id": 2,
+            "title": "Motivational Saying",
+            "text1" : " Vulputate mi sit amet mauris commodo quis imperdiet.",
+            "text2" : "Metus vulputate eu felis imperdiet proin nulla aliquet",
+            "text3": "enim. Vulputate mi sit amet mauris",
+            "reviewer": "Author",
+            "design" : "Title of Book",
+            "img" : "/assets/img/bg/book-solid.png"
+
+
+        },
+        {
+            "id": 3,
+            "title": "Motivational Saying",
+            "text1" : " Vulputate mi sit amet mauris commodo quis imperdiet.",
+            "text2" : "Metus vulputate eu felis imperdiet proin nulla aliquet",
+            "text3": "enim. Vulputate mi sit amet mauris",
+            "reviewer": "Author",
+            "design" : "Title of Book",
+            "img" : "/assets/img/bg/book-solid.png"
+        }
+    ]
+}

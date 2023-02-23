@@ -1,0 +1,22 @@
+{
+    "faq":[
+        {
+            "id":1,
+            "show":true,
+            "question": "How do I get started?",
+            "ans": "You can schedule a free, 15-minute phone consultation. This is an opportunity for us to get to know each other and see if we might be a good fit. I will tell you a bit about myself and ask you to briefly share what you’re hoping to address in therapy. You are welcome to ask me questions as well! We may also discuss logistics, like scheduling and billing. This is your chance to gain a better sense of who I am so that you can determine if you’d like to work with me."
+        }, {
+            "id":2,
+            "question": "Do you accept insurance?",
+            "ans": "I accept the following insurance plans through Alma: United Healthcare, Oxford Health Plans, Cigna, Aetna, UMR, Oscar, UHC Student Resources, AllSavers UHC, Harvard Pilgrim, Meritain, Nippon, United Healthcare Shared Services, Alied Benefit Systems - Aetna, Surest - Formerly Bind, Health Plans Inc., UnitedHealthcare Global, Christian Brothers Services - Aetna, Trustmark Health Benefits - Aetna, Trustmark Health Benefits - Cigna, Trustmark Small Business Benefits - Aetna, Health Scope - Aetna. If your insurance isn’t listed above, you can still receive superbills, or invoices of services, to submit to your insurance for partial reimbursement. I encourage you to check with your insurance company about their out-of-network coverage."
+        }, {
+            "id":3,
+            "question": "What if I don’t use insurance, i.e. I’m a private pay client?",
+            "ans": "My private pay rate is $150 for a 55-minute individual session."
+        }, {
+            "id":4,
+            "question": "How does payment work?",
+            "ans": "All clients must be enrolled in AutoPay as a means of ensuring payment for services received. When scheduling an initial session, clients will receive an email from Alma requesting credit card information to keep on file for AutoPay. Please note that I have a 24 hour cancellation policy. In the event of a late cancellation or missed appointment, clients will be charged a $75 fee. I am currently accepting new clients for telehealth sessions. I utilize a version of Zoom that is secure and HIPAA-compliant for all sessions."
+        } 
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "SliderHomeThree":[
+        {
+            "id": 1,
+            "img": "/assets/img/bg/garden.jpg",
+            "description": "I bet we know what goes here...",
+            "title1": "That's right..",
+            "title2": "The Hero Statement"
+        },
+        
+        {
+            "id": 2,
+            "img": "/assets/img/bg/garden2.jpg",
+            "description": "I bet we know what goes here...",
+            "title1": "We Can Even Have",
+            "title2": "More Than One!"
+        }
+      
+
+    ]
+}
