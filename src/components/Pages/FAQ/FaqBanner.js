@@ -7,7 +7,7 @@ const FaqBanner = () => {
       <section
         className="breadcrumb__area include-bg breadcrumb__overlay faq_banner"
         style={{
-          backgroundImage: `url("assets/img/bg/branch.jpg")`,
+          backgroundImage: `url("assets/img/bg/branch.webp")`,
         }}
       >
         <div className="container">
