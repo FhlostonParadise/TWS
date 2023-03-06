@@ -1,54 +1,41 @@
 const menu_data = [
   {
     id: 1,
-    hasDropdown: true,
+    hasDropdown: false,
     title: 'Home',
     link: '/',
-    submenus: [
-      { title: 'Home Style 1', link: '/' },
-      { title: 'Home Style 2', link: '/home-2' },
-      { title: 'Home Style 3', link: '/home-3' },
-    ]
+    
   },
   {
     id: 2,
     title: 'About',
-    link: '/about',
+    link: '/about'
   },
   {
     id: 3,
-    hasDropdown: true,
-    title: 'Pages',
-    link: '/about',
-    submenus: [
-      { title: 'Team', link: '/team' },
-      { title: 'Team Details', link: '/team-details' },
-      { title: 'Service', link: '/service' },
-      { title: 'Service Details', link: '/service-details' },
-      { title: 'Price', link: '/price' },
-      { title: 'Contact', link: '/contact' },
-      { title: 'Faq', link: '/faq' },
-    ]
+    hasDropdown: false,
+    title: 'FAQ',
+    link: '/faq'
   },
   {
     id: 4,
-    hasDropdown: true,
-    title: 'Portfolio',
-    link: '/portfolio',
-    submenus: [
-      { title: 'Portfolio', link: '/portfolio' },
-      { title: 'Portfolio Details', link: '/portfolio-details' },
-    ]
+    hasDropdown: false,
+    title: 'Services',
+    link: '/service',
   },
   {
     id: 5,
-    hasDropdown: true,
+    hasDropdown: false,
+    title: 'Contact',
+    link: '/contact',
+    
+  },
+  {
+    id: 6,
+    hasDropdown: false,
     title: 'Blog',
     link: '/blog',
-    submenus: [
-      { title: 'Blog', link: '/blog' },
-      { title: 'Blog Details', link: '/blog-details' },
-    ]
+    
   },
 ]
 

@@ -3,10 +3,12 @@ import { Link } from "react-router-dom";
 import useSticky from "../../../hooks/use-sticky";
 import Menus from "./Menus";
 
+import OffCanvas from "./OffCanvas";
+
 
 const Menu = ({ header_style_2 }) => {
   const [isToggleSearch, setToggleSearch] = useState(false);
-  
+  const [isOffCanvas, setOffCanvas] = useState(false);
   const { sticky } = useSticky();
   return (
     <>
@@ -95,7 +97,7 @@ const Menu = ({ header_style_2 }) => {
       </header>
 
       {/* off canvas start */}
-      {/* <OffCanvas isOffCanvas={isOffCanvas} setOffCanvas={setOffCanvas} /> */}
+      <OffCanvas isOffCanvas={isOffCanvas} setOffCanvas={setOffCanvas} />
       {/* off canvas end */}
     </>
   );

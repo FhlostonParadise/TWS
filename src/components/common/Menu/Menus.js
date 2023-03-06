@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Menus = () => {
   return (
     <ul>
-      <li>
+      <li className="has-dropdown">
         <Link to="/">Home</Link>
       </li>
       <li>
