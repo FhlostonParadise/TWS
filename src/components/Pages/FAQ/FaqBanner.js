@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const FaqBanner = () => {
   return (
     <>
-      <section
+      <section id="faq" 
         className="breadcrumb__area include-bg breadcrumb__overlay faq_banner"
         style={{
           backgroundImage: `url("assets/img/bg/branch.webp")`,

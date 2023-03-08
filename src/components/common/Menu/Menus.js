@@ -4,18 +4,17 @@ import { Link } from "react-router-dom";
 const Menus = () => {
   return (
     <ul>
-      <li className="has-dropdown">
+      <li>
         <Link to="/">Home</Link>
       </li>
       <li>
-        <Link to="/team-details">About Me</Link>
+        <a href="#about">About</a>
       </li>
       <li>
-        <Link to="/faq">FAQ</Link>
-        
+        <a href="#faq">FAQ</a>
       </li>
       <li>
-        <Link to="/service">Services</Link>
+        <a href="#service">Services</a>
       </li>
       <li>
         <Link to="/blog">Blog</Link>

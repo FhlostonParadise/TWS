@@ -9,7 +9,7 @@
 }
 
 .tp-slider-height {
-    min-height: 950px;
+    min-height: 768px;
     background-size: cover;
 
     @media #{$xl} {
@@ -34,7 +34,7 @@
 }
 
 .tp-slider-height-3 {
-    height: 850px;
+    height: 768px;
     background-size: cover;
 
     @media #{$xl} {
@@ -64,7 +64,7 @@
     padding-bottom: 60px;
     padding-right: 105px;
     position: absolute;
-    bottom: 0;
+    bottom: 200px;
     left: 100px;
 
     @media #{$xs} {

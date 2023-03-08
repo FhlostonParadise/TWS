@@ -3,17 +3,24 @@
         {
             "id": 1,
             "img": "/assets/img/bg/garden.webp",
-            "description": "I bet we know what goes here...",
-            "title1": "That's right..",
-            "title2": "The Hero Statement"
+            "description": "You have a complicated relationship with your identity as a result of living in a world that upholds and privileges some over others. There are times when you feel pride and there are times when your identity feels like a load to carry. What would it be like to be welcomed as your whole, complete self?",
+            "title1": "Identity explorers, mixed folks, multicultural folks",
+            "title2": ""
         },
         
         {
             "id": 2,
             "img": "/assets/img/bg/garden2.webp",
-            "description": "I bet we know what goes here...",
-            "title1": "We Can Even Have",
-            "title2": "More Than One!"
+            "description": "From the outside, you have everything together and you’re the one people go to for advice. No one would doubt that you are capable. Yet there are times when you experience uncertainty and now you’re ready to dip your toes into vulnerability.",
+            "title1": "High-achievers, perfectionists, eldests, the 'strong friends",
+            "title2": ""
+        },
+        {
+            "id": 3,
+            "img": "/assets/img/bg/garden.webp",
+            "description": "There is something about you that makes you different from your family of origin, community, or any other group. While you recognize that marching to the beat of your own drum is cool, you also long for a sense of belonging where you don’t have to constantly explain yourself",
+            "title1": "The Odd ones out",
+            "title2": ""
         }
       
 

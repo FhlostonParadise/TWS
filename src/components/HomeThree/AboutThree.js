@@ -5,7 +5,7 @@ const AboutThree = () => {
   return (
     <>
       {/* <!-- tp-about-3 start  --> */}
-      <div className="tp-ab-section pt-160">
+      <div className="tp-ab-section pt-160" id="about">
         <div className="container">
           <div className="row align-items-center tp-flex-reverse">
             <div className="col-lg-6">
@@ -26,7 +26,7 @@ const AboutThree = () => {
                 </p>
                 
                 <div>
-                  <Link to="/team-details" className="tp-btn mb-35">
+                  {/* <Link to="/team-details" className="tp-btn mb-35">
                     More About Me
                     <span>
                       <svg
@@ -54,7 +54,7 @@ const AboutThree = () => {
                         ></path>
                       </svg>
                     </span>
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </div>

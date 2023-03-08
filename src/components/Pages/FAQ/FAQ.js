@@ -1,5 +1,5 @@
 import React from "react";
-import Contact from "../../common/Contact/Contact";
+
 import FooterThree from "../../common/Footer/FooterThree";
 import Menu from "../../common/Menu/Menu";
 import Accordion from "./Accordion";
@@ -11,7 +11,7 @@ const FAQ = () => {
       <Menu header_style_2={true} />
       <FaqBanner />
       <Accordion />
-      <Contact />
+      
       <FooterThree />
     </>
   );

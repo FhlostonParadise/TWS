@@ -33,12 +33,13 @@ const SliderHomeThree = () => {
                   style={{ backgroundImage: `url(${item.img})` }}
                 >
                   <div className="tp-slider-text white-box">
-                    <span className="text-white">{item?.description}</span>
-                    <h3 className="tp-slider-title tp-sl-lg-text mt-40 mb-55">
+                  <h3 className="tp-slider-title tp-sl-lg-text mt-40 mb-55">
                       {item.title1} <br /> {item.title2}
                     </h3>
+                    <span className="text-white">{item?.description}</span>
+                    
 
-                    <a href="#" className="tp-slider-btn">
+                   {/*  <a href="#" className="tp-slider-btn">
                       <span>
                         <svg
                           width="53"
@@ -65,7 +66,7 @@ const SliderHomeThree = () => {
                           ></path>
                         </svg>
                       </span>
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </div>

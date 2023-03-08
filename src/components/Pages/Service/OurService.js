@@ -9,8 +9,8 @@ const OurService = () => {
           <div className="row">
             <div className="col-12">
               <div className="tp-section-wrapper text-center mb-20">
-                <span className="tp-section-subtitle mb-30">Services</span>
-                <h2 className="tp-section-title">Services</h2>
+                
+                <h2 className="tp-section-title" id="service">Services</h2>
               </div>
             </div>
           </div>

@@ -18,13 +18,13 @@ const HomeThree = () => {
       <SliderHomeThree />
       <AboutThree />
       <OurService />
-      <TopCtaArea />
+      {/* <TopCtaArea /> */}
       
       <FAQBanner/>
       <Accordion />
-      <BlogThree />
+      {/* <BlogThree /> */}
       <ContactThree />
-      <FooterThree />
+   
     </>
   );
 };
