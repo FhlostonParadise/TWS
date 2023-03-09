@@ -9,34 +9,28 @@ const menu_data = [
   {
     id: 2,
     title: 'About',
-    link: '/about'
+    link: '#about'
   },
   {
     id: 3,
     hasDropdown: false,
     title: 'FAQ',
-    link: '/faq'
+    link: '#faq'
   },
   {
     id: 4,
     hasDropdown: false,
     title: 'Services',
-    link: '/service',
+    link: '#service',
   },
   {
     id: 5,
     hasDropdown: false,
     title: 'Contact',
-    link: '/contact',
+    link: '#contact',
     
-  },
-  {
-    id: 6,
-    hasDropdown: false,
-    title: 'Blog',
-    link: '/blog',
-    
-  },
+  }
+  
 ]
 
 export default menu_data;
