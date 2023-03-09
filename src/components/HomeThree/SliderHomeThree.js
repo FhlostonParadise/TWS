@@ -33,10 +33,10 @@ const SliderHomeThree = () => {
                   style={{ backgroundImage: `url(${item.img})` }}
                 >
                   <div className="tp-slider-text white-box">
-                  <div className="tp-slider-title tp-sl-lg-text mt-40">
-                    <h3 className="tp-slider-title tp-sl-md-text mt-40 text-center">  {item.title1}</h3> <br /> <h3 className="tp-slider-title tp-sl-lg-text mt-40 text-center"> {item.title2}</h3>
+                  <div className="tp-slider-title tp-sl-lg-text mt-90">
+                    <h3 className="tp-slider-title tp-sl-md-text mt-90 text-center">  {item.title1}</h3>  <h3 className="tp-slider-title tp-sl-lg-text mt-40 text-center"> {item.title2}</h3>
                     </div>
-                    <span className="text-white text-center">{item?.description}</span>
+                    <span className="text-white text-center tp-progress-item">{item?.description}</span>
                     
 
                    {/*  <a href="#" className="tp-slider-btn">

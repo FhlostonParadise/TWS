@@ -64,7 +64,7 @@
     padding-bottom: 60px;
     padding-right: 105px;
     position: absolute;
-    bottom: 200px;
+    top: 30px;
     left: 100px;
 
     @media #{$xs} {
@@ -83,7 +83,7 @@
 }
 
 .white-box {
-    padding-bottom: 90px;
+    padding-bottom: 60px;
     padding-left: 0;
 
     @media #{$xs} {

@@ -22,7 +22,7 @@ const AboutThree = () => {
                 In my late teens and early adulthood, I was exposed to ways of thinking about identity that expanded past rigid boundaries and into fluidity and the gray area in which I often found myself. 
                 </p>
                 <p>
-                At this point in my life, I find power and possibility within my many and intersecting identities, and I bring this into the therapy space. I aim to bring all parts of me into my practice, and hope to create a space in which my clients also feel safe bringing their genuine selves too. 
+                At this point in my life, I find power and possibility within my many and intersecting identities, and I bring this into the therapy space. I aim to bring all parts of me into my practice, and hope to create a space in which my clients can too.
                 </p>
                 
                 <div>
