@@ -9,12 +9,14 @@ import SliderHomeThree from "./SliderHomeThree";
 import FAQBanner from "../Pages/FAQ/FaqBanner";
 import Accordion from "../Pages/FAQ/Accordion";
 import TopCtaArea from "../Home/TopCtaArea";
+import TeamBanner from "../Pages/TeamPage/TeamBanner";
 
 
 const HomeThree = () => {
   return (
     <>
       <Menu header_style_2={true} />
+      <TeamBanner />
       <OurService />
       <AboutThree />
       
