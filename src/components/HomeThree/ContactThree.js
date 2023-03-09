@@ -10,7 +10,7 @@ const ContactThree = () => {
         // data-background="assets/img/contact/contact.jpg"
         style={{ backgroundImage: `url("assets/img/contact/contact.jpg")` }}
       >
-        <div className="container">
+        <div className="container" id='contact'>
           <div className="row">
             <div className="col-lg-6">
               <div className="tp-contact-info pt-180 pb-150 pr-50">
