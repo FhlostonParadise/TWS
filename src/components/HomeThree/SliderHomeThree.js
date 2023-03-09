@@ -4,7 +4,7 @@ import slider from "../../data/SliderHomeThree.json";
 
 const settings = {
   autoplay: true,
-  autoplaySpeed: 5000,
+  autoplaySpeed: 10000,
   dots: false,
   fade: true,
   arrows: false,

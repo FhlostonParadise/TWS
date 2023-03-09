@@ -27,6 +27,7 @@
             "id": 4,
             "img": "/assets/img/bg/garden.webp",
             "description": "Being an adult of a certain age comes with stressors around family, work, and finances. Being an adult of this particular generation means that those stressors were influenced further by the Great Recession, explosive growth of technology and social media, MeToo movement, Racial Reckoning, and the COVID-19 pandemic. You want to work with a peer who isn’t going to compare and diminish your experience.",
+            "title1": "What is your story?",
             "title2": "The Millenial..."
         },
 
@@ -34,6 +35,7 @@
             "id": 5,
             "img": "/assets/img/bg/garden.webp",
             "description": "You have a deep appreciation for the written word and how it can both create new worlds and expound on the one we live in. We can incorporate the best parts of being in a book club with the personalized, introspective aspects of therapy to create a one-of-a-kind experience for healing and growth.",
+            "title1": "What is your story?",
             "title2": "Readers, Writers, Bibliophiles, Wordsmiths..."
         }
       
