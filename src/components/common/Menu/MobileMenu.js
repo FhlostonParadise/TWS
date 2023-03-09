@@ -12,19 +12,17 @@ const MobileMenu = () => {
                 <Link to="/">Home</Link>
               </li>
               <li>
-                <Link to="/team-details">About Me</Link>
+                <Link to="#about">About Me</Link>
               </li>
               <li>
-                <Link to="/faq">FAQ</Link>
+                <Link to="#faq">FAQ</Link>
               </li>
               <li>
-                <Link to="/service">Services</Link>
+                <Link to="#service">Services</Link>
               </li>
+              
               <li>
-                <Link to="/blog">Blog</Link>
-              </li>
-              <li>
-                <Link to="/contact">Contact</Link>
+                <Link to="#contact">Contact</Link>
               </li>
             </ul>
           </nav>
