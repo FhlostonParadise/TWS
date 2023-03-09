@@ -10,7 +10,7 @@
     }
     &__title{
         font-size: 48px;
-        color: var(--tp-common-white);
+        color: var(--tp-common-black);
         text-transform: capitalize;
         @media #{$xs} {
             font-size: 35px;

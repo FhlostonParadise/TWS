@@ -4,7 +4,7 @@ const TeamBanner = () => {
   return (
     <>
       <section
-        className="breadcrumb__area include-bg breadcrumb__overlay  team_banner"
+        className="breadcrumb__area include-bg   team_banner"
         // data-background="assets/img/breadcrumb/breadcrumb-bg-2.jpg"
         style={{
           backgroundImage: `url("assets/img/breadcrumb/2555.png")`,
