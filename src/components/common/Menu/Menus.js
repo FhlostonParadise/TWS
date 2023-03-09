@@ -11,10 +11,13 @@ const Menus = () => {
         <a href="#about">About</a>
       </li>
       <li>
+        <a href="#service">Service</a>
+      </li>
+      <li>
         <a href="#faq">FAQ</a>
       </li>
       <li>
-        <Link to="#contact">Contact</Link>
+        <a href="#contact">Contact</a>
       </li>
     </ul>
   );
