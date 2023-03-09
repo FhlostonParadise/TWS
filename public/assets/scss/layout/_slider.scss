@@ -111,6 +111,17 @@
     }
 }
 
+.tp-sl-md-text {
+    font-size: 45px;
+    line-height: 1.2;
+    font-style: italic;
+
+    @media #{$xs} {
+        font-size: 30px;
+        margin: 30px 0;
+    }
+}
+
 .slick-active {
     & .tp-slider-text {
         -webkit-animation-delay: 0.3s;
