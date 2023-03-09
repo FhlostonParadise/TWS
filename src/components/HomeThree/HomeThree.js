@@ -17,9 +17,9 @@ const HomeThree = () => {
     <>
       <Menu header_style_2={true} />
       <TeamBanner />
-      <OurService />
-      <AboutThree />
       
+      <AboutThree />
+      <OurService />
       {/* <TopCtaArea /> */}
       
       <FAQBanner/>
