@@ -14,13 +14,7 @@ const Menus = () => {
         <a href="#faq">FAQ</a>
       </li>
       <li>
-        <a href="#service">Services</a>
-      </li>
-      <li>
-        <Link to="/blog">Blog</Link>
-      </li>
-      <li>
-        <Link to="/contact">Contact</Link>
+        <Link to="#contact">Contact</Link>
       </li>
     </ul>
   );
