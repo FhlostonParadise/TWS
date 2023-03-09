@@ -21,7 +21,7 @@ const MobileMenus = () => {
          
             {menu.hasDropdown && (
               <li className="has-dropdown">
-                <Link to={menu.link}>{menu.title}</Link>
+                <a href={menu.link}>{menu.title}</a>
                 <ul
                   className="submenu"
                   style={{
@@ -30,7 +30,7 @@ const MobileMenus = () => {
                 >
                   {menu.submenus.map((sub, i) => (
                     <li key={i}>
-                      <Link to={sub.link}>{sub.title}</Link>
+                      <a href={sub.link}>{sub.title}</a>
                     </li>
                   ))}
                 </ul>
@@ -47,7 +47,7 @@ const MobileMenus = () => {
               </li>
             )}
                {!menu.hasDropdown &&<li>
-              <Link to={menu.link}>{menu.title}</Link>
+              <a href={menu.link}>{menu.title}</a>
             </li>}
           </React.Fragment>
         ))}
