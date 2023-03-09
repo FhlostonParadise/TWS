@@ -10,6 +10,7 @@ import FAQBanner from "../Pages/FAQ/FaqBanner";
 import Accordion from "../Pages/FAQ/Accordion";
 import TopCtaArea from "../Home/TopCtaArea";
 import TeamBanner from "../Pages/TeamPage/TeamBanner";
+import FooterTwo from "../common/Footer/FooterTwo";
 
 
 const HomeThree = () => {
@@ -26,7 +27,7 @@ const HomeThree = () => {
       <Accordion />
       {/* <BlogThree /> */}
       <ContactThree />
-   
+   <FooterTwo />
     </>
   );
 };
