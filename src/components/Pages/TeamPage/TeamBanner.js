@@ -7,7 +7,7 @@ const TeamBanner = () => {
         className="breadcrumb__area include-bg   team_banner"
         // data-background="assets/img/breadcrumb/breadcrumb-bg-2.jpg"
         style={{
-          backgroundImage: `url("assets/img/breadcrumb/2555.png")`,
+          backgroundImage: `url("assets/img/bg/bg5.png")`,
         }}
       >
         <div className="container">
