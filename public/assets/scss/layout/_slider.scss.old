@@ -34,7 +34,7 @@
 }
 
 .tp-slider-height-3 {
-    min-height: 768px;
+    height: 768px;
     background-size: cover;
 
     @media #{$xl} {
@@ -64,7 +64,7 @@
     padding-bottom: 60px;
     padding-right: 105px;
     position: absolute;
-    bottom: 0;
+    top: 30px;
     left: 100px;
 
     @media #{$xs} {
@@ -83,7 +83,7 @@
 }
 
 .white-box {
-    padding-bottom: 90px;
+    padding-bottom: 60px;
     padding-left: 0;
 
     @media #{$xs} {
@@ -93,7 +93,7 @@
 
 .tp-slider-title {
     color: var(--tp-common-white);
-    font-size: 68px;
+    font-size: 53px;
     line-height: 1.4;
 
     @media #{$sm,$xs} {
@@ -104,6 +104,17 @@
 .tp-sl-lg-text {
     font-size: 65px;
     line-height: 1.2;
+
+    @media #{$xs} {
+        font-size: 30px;
+        margin: 30px 0;
+    }
+}
+
+.tp-sl-md-text {
+    font-size: 45px;
+    line-height: 1.2;
+    font-style: italic;
 
     @media #{$xs} {
         font-size: 30px;

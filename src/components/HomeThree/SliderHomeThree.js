@@ -4,7 +4,7 @@ import slider from "../../data/SliderHomeThree.json";
 
 const settings = {
   autoplay: true,
-  autoplaySpeed: 10000,
+  autoplaySpeed: 4000,
   dots: false,
   fade: true,
   arrows: false,
@@ -33,13 +33,12 @@ const SliderHomeThree = () => {
                   style={{ backgroundImage: `url(${item.img})` }}
                 >
                   <div className="tp-slider-text white-box">
-                  <div className="tp-slider-title tp-sl-lg-text mt-90">
-                    <h3 className="tp-slider-title tp-sl-md-text mt-90 text-center">  {item.title1}</h3>  <h3 className="tp-slider-title tp-sl-lg-text mt-40 text-center"> {item.title2}</h3>
-                    </div>
-                    <span className="text-white text-center tp-progress-item">{item?.description}</span>
-                    
+                    <span className="text-white">{item?.description}</span>
+                    <h3 className="tp-slider-title tp-sl-lg-text mt-40 mb-55">
+                      {item.title1} <br /> {item.title2}
+                    </h3>
 
-                   {/*  <a href="#" className="tp-slider-btn">
+                    <a href="#" className="tp-slider-btn">
                       <span>
                         <svg
                           width="53"
@@ -66,12 +65,33 @@ const SliderHomeThree = () => {
                           ></path>
                         </svg>
                       </span>
-                    </a> */}
+                      Get in touch
+                    </a>
                   </div>
                 </div>
               </div>
             ))}
-          </Slider>   
+          </Slider>
+        {/*   <div className="slider-arrow-3 d-flex justify-content-between align-items-center">
+            <button
+              onClick={() => sliderRef.current?.slickPrev()}
+              type="button"
+              className="slick-prev slick-arrow"
+            >
+              <span>
+                <i className="fal fa-angle-left"></i>
+              </span>
+            </button>
+            <button
+              onClick={() => sliderRef.current?.slickNext()}
+              type="button"
+              className="slick-next slick-arrow"
+            >
+              <span>
+                <i className="fal fa-angle-right"></i>
+              </span>
+            </button>
+          </div> */}
         </div>
       </div>
       {/* <!-- slider -3 --> */}

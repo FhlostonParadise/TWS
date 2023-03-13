@@ -17,8 +17,8 @@ const HomeThree = () => {
   return (
     <>
       <Menu header_style_2={true} />
-      <TeamBanner />
       
+      <SliderHomeThree />
       <AboutThree />
       <OurService />
       {/* <TopCtaArea /> */}

@@ -14,7 +14,7 @@ const TeamBanner = () => {
           <div className="row">
             <div className="col-xxl-12">
               <div className="breadcrumb__content text-center p-relative z-index-1">
-                <h3 className="breadcrumb__title">
+                <h3 className="breadcrumb__title text-white">
                   How do you tell your story?
                 </h3>
                 <div className="breadcrumb__list">

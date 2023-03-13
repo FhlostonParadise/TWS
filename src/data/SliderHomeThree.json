@@ -3,42 +3,10 @@
         {
             "id": 1,
             "img": "/assets/img/bg/garden.webp",
-            "description": "You have a complicated relationship with your identity as a result of living in a world that upholds and privileges some over others. There are times when you feel pride and there are times when your identity feels like a load to carry. What would it be like to be welcomed as your whole, complete self?",
-            "title1": "What is your story?",
-            "title2": "Identity Explorers, Mixed Folks, Multicultural Folks..."
-        },
-        
-        {
-            "id": 2,
-            "img": "/assets/img/bg/garden2.webp",
-            "description": "From the outside, you have everything together and you’re the one people go to for advice. No one would doubt that you are capable. Yet there are times when you experience uncertainty and now you’re ready to dip your toes into vulnerability.",
-            "title1": "What is your story?",
-            "title2": "High-achievers, Perfectionists, Eldests, the 'strong friends..."
-        },
-        {
-            "id": 3,
-            "img": "/assets/img/bg/garden.webp",
-            "description": "There is something about you that makes you different from your family of origin, community, or group. While some prefer to march to the same beat, you’d rather be dancing with abandon to your own remix.",
-            "title1": "What is your story?",
-            "title2": "The Disruptors, Outsiders, Mavericks, and Rebels..."
-        },
-
-        {
-            "id": 4,
-            "img": "/assets/img/bg/garden.webp",
-            "description": "Being an adult of a certain age comes with stressors around family, work, and finances. Being an adult of this particular generation means that those stressors were influenced further by the Great Recession, explosive growth of technology and social media, MeToo movement, Racial Reckoning, and the COVID-19 pandemic. You want to work with a peer who isn’t going to compare and diminish your experience.",
-            "title1": "What is your story?",
-            "title2": "The Millenial..."
-        },
-
-        {
-            "id": 5,
-            "img": "/assets/img/bg/garden.webp",
-            "description": "You have a deep appreciation for the written word and how it can both create new worlds and expound on the one we live in. We can incorporate the best parts of being in a book club with the personalized, introspective aspects of therapy to create a one-of-a-kind experience for healing and growth.",
-            "title1": "What is your story?",
-            "title2": "Readers, Writers, Bibliophiles, Wordsmiths..."
+            "description": "",
+            "title1": "How do you tell your story?",
+            "title2": ""
         }
-      
 
     ]
 }
