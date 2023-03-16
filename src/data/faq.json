@@ -8,15 +8,15 @@
         }, {
             "id":2,
             "question": "Do you accept insurance?",
-            "ans": "I accept the following insurance plans through Alma: United Healthcare, Oxford Health Plans, Cigna, Aetna, UMR, Oscar, UHC Student Resources, AllSavers UHC, Harvard Pilgrim, Meritain, Nippon, United Healthcare Shared Services, Alied Benefit Systems - Aetna, Surest - Formerly Bind, Health Plans Inc., UnitedHealthcare Global, Christian Brothers Services - Aetna, Trustmark Health Benefits - Aetna, Trustmark Health Benefits - Cigna, Trustmark Small Business Benefits - Aetna, Health Scope - Aetna. If your insurance isn’t listed above, you can still receive superbills, or invoices of services, to submit to your insurance for partial reimbursement. I encourage you to check with your insurance company about their out-of-network coverage."
+            "ans": "I accept UnitedHealthCare, Optum, Aetna, Cigna, Oxford Health Plans, Oscar, and many of their subsidiaries. If your insurance isn’t listed above, you can still receive superbills, or invoices of services, to submit to your insurance for partial reimbursement. I encourage you to check with your insurance company about their out-of-network coverage."
         }, {
             "id":3,
             "question": "What if I don’t use insurance, i.e. I’m a private pay client?",
-            "ans": "My private pay rate is $150 for a 55-minute individual session."
+            "ans": "My private pay rate is $150 for a 55-minute individual session. You have the right to receive a “Good Faith Estimate” explaining how much your care will cost. Under the No Surprises Act, a healthcare provider must give patients who don’t have insurance or who are not using insurance an estimate of the expected charges for medical services, including psychotherapy services. While it is not possible to know in advance how many sessions may be necessary or appropriate for a given person, this form provides an estimate of the cost of services provided. If you receive a bill that is at least $400 more than your Good Faith Estimate, you can dispute that bill. For questions or more information about your right to a Good Faith Estimate, visit https://www.cms.gov/nosurprises/consumers."
         }, {
             "id":4,
             "question": "How does payment work?",
-            "ans": "All clients must be enrolled in AutoPay as a means of ensuring payment for services received. When scheduling an initial session, clients will receive an email from Alma requesting credit card information to keep on file for AutoPay. Please note that I have a 24 hour cancellation policy. In the event of a late cancellation or missed appointment, clients will be charged a $75 fee. I am currently accepting new clients for telehealth sessions. I utilize a version of Zoom that is secure and HIPAA-compliant for all sessions."
+            "ans": "All clients must be enrolled in AutoPay as a means of ensuring payment for services received. When scheduling an initial session, clients will receive an email from Alma requesting credit card information to keep on file for AutoPay. Please note that I have a 24 hour cancellation policy. In the event of a late cancellation or missed appointment, clients will be charged a $75 fee."
         } 
     ]
 }
