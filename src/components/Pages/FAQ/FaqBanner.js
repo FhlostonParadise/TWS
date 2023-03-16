@@ -15,17 +15,17 @@ const FaqBanner = () => {
             <div className="col-xxl-12">
               <div className="breadcrumb__content text-center p-relative z-index-1">
                 <h3 className="breadcrumb__title text-white">Frequently Asked Questions</h3>
-                <div className="breadcrumb__list">
+                {/* <div className="breadcrumb__list">
                   <span>
                     <Link to="/">Home</Link>
                   </span>
                   <span className="dvdr">:</span>
-                  <span>faq</span>
+                  <span>faq</span> */}
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        
       </section>
     </>
   );
