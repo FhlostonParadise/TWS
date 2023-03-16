@@ -22,7 +22,7 @@ const OurService = () => {
             />
             <ServiceItem
               icon="pe-7s-study"
-              title="High-achievers, Perfectionists, Eldests, the 'strong friends"
+              title="High-achievers, Perfectionists, Eldests, the 'Strong Friends'"
               desc="From the outside, you have everything together and you’re the one people go to for advice. No one would doubt that you are capable. Yet there are times when you experience uncertainty and now you’re ready to dip your toes into vulnerability."
             />
             <ServiceItem
