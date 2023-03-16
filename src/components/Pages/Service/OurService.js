@@ -27,14 +27,14 @@ const OurService = () => {
             />
             <ServiceItem
               icon="pe-7s-rocket"
-              title="The Disruptors, Outsiders, Mavericks, and Rebels"
+              title="Disruptors, Outsiders, Mavericks, and Rebels"
               desc="There is something about you that makes you different from your family of origin, community, or any other group. While you recognize that marching to the beat of your own drum is cool, you also long for a sense of belonging where you don’t have to constantly explain yourself."
             />
 
           <div className="row">
             <ServiceItem
               icon="pe-7s-date"
-              title="The Millenial"
+              title="Millenials"
               desc="Being an adult of a certain age comes with stressors around family, work, and finances. Being an adult of this particular generation means that those stressors were influenced further by the Great Recession, explosive growth of technology and social media, MeToo movement, Racial Reckoning, and the COVID-19 pandemic. You want to work with a peer who isn’t going to compare and diminish your experience."
             />
             <ServiceItem
