@@ -22,12 +22,12 @@ const OurService = () => {
             />
             <ServiceItem
               icon="pe-7s-study"
-              title="High-achievers, Perfectionists, Eldests, the 'Strong Friends'"
+              title="High-achievers, Perfectionists, Eldests, 'Strong Friends'"
               desc="From the outside, you have everything together and you’re the one people go to for advice. No one would doubt that you are capable. Yet there are times when you experience uncertainty and now you’re ready to dip your toes into vulnerability."
             />
             <ServiceItem
               icon="pe-7s-rocket"
-              title="Disruptors, Outsiders, Mavericks, and Rebels"
+              title="Disruptors, Outsiders, Mavericks, Rebels"
               desc="There is something about you that makes you different from your family of origin, community, or any other group. While you recognize that marching to the beat of your own drum is cool, you also long for a sense of belonging where you don’t have to constantly explain yourself."
             />
 
