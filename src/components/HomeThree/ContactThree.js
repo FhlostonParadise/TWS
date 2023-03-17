@@ -1,14 +1,30 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
-const ContactThree = () => {
+export const ContactThree = () => {
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_w9pgm2o', 'template_jygdyvk', form.current, '9O7jFJOpWG22wFE5N')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+  };
+
+  
   return (
     <>
       {/* <!-- contact area start --> */}
       <div
         className="tp-contact-area"
         // data-background="assets/img/contact/contact.jpg"
-        style={{ backgroundImage: `url("assets/img/contact/contact.jpg")` }}
+        style={{ backgroundImage: `url("assets/img/contact/contact2.jpg")` }}
       >
         <div className="container" id='contact'>
           <div className="row">
@@ -19,7 +35,7 @@ const ContactThree = () => {
                     Get in touch now
                   </span>
                   <h2 className="tp-section-title text-white mb-35">
-                    Don't hesitate to contact me for any additional questions
+                    Don't hesitate to contact me for any additional questions!
                   </h2>
                   
                   <div className="mt-50">
@@ -33,18 +49,10 @@ const ContactThree = () => {
                 <h4 className="tp-contact-form-title">
                   <i className="fal fa-file-edit"></i>Online Contact
                 </h4>
-                <form action="#">
-                  <input
-                    type="text"
-                    name="name"
-                    placeholder="Enter your name"
-                  />
+                <form ref={form} onSubmit={sendEmail}>
+                <input type="text" name="user_name" placeholder="Your Name"/>
                   <br />
-                  <input
-                    type="email"
-                    name="email"
-                    placeholder="Enter your mail"
-                  />
+                  <input type="email" name="user_email" placeholder="Your Email"/>
                   <br />
                   <textarea
                     name="message"

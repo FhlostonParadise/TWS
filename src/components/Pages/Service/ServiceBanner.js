@@ -15,7 +15,7 @@ const ServiceBanner = () => {
           <div className="row">
             <div className="col-xxl-12">
               <div className="breadcrumb__content text-center p-relative z-index-1">
-                <h3 className="breadcrumb__title">Our Services</h3>
+                <h2 className="breadcrumb__title">Our Services</h2>
                 <div className="breadcrumb__list">
                   <span>
                     <Link to="/">Home</Link>
