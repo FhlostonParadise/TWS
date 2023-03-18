@@ -9,7 +9,7 @@ export const ContactThree = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_w9pgm2o', 'template_jygdyvk', form.current, '9O7jFJOpWG22wFE5N')
+    emailjs.sendForm('service_y6hrzok', 'template_ufsdu9l', form.current, 'fO5LmFnaQfr9m30SY')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
