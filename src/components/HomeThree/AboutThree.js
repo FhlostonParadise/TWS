@@ -59,7 +59,7 @@ const AboutThree = () => {
               </div>
             </div>
             <div className="col-lg-6">
-              <div className="tp-ab-img text-md-end w-img">
+              <div className="tp-ab-img w-img">
                 <img src="assets/img/about/about-2.png" alt="" />
               </div>
             </div>
