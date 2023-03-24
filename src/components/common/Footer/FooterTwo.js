@@ -15,7 +15,7 @@ const FooterTwo = () => {
           <div className="row">
             <div className="col-md-8 col-12">
               <div className="tp-copyrigh-text mb-30">
-                <span>© {new Date().getFullYear()} Therapy With Shana</span>
+                <span>© {new Date().getFullYear()} Therapy With Shana - A Woman & Minority Owned Small Business.</span>
               </div>
               <div className="tp-copyrigh-text mb-30">More</div>
             </div>
