@@ -92,7 +92,7 @@ const Menu = ({ header_style_2 }) => {
                     >
                       <button
                         onClick={() => setOffCanvas(true)}
-                        className="offcanvas-toggle-btn"
+                        className="offcanvas-toggle-btn d-xl-none"
                       >
                         <i className="fal fa-bars" />
                       </button>
