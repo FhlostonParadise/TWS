@@ -5,7 +5,7 @@ const FooterTwo = () => {
     <footer>
       <div className="tp-footer__area black-bg">
         <div className="tp-footer">
-          
+         
         </div>
       </div>
 
@@ -17,6 +17,7 @@ const FooterTwo = () => {
               <div className="tp-copyrigh-text mb-30">
                 <span>© {new Date().getFullYear()} Therapy With Shana</span>
               </div>
+              <div className="tp-copyrigh-text mb-30">More</div>
             </div>
             <div className="col-md-4 col-12">
               <div className="tp-footer-social-icon mb-30 text-md-end">
