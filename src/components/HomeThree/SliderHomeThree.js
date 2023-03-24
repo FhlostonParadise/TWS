@@ -38,7 +38,7 @@ const SliderHomeThree = () => {
                       {item.title1} <br /> {item.title2}
                     </h3>
 
-                    <a href="#" className="tp-slider-btn">
+                    <a href="#contact" className="tp-slider-btn">
                       <span>
                         <svg
                           width="53"
