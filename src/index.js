@@ -12,7 +12,7 @@ import ReactGA from 'react-ga4';
 const root = ReactDOM.createRoot(document.getElementById("root"));
 //Initialize GA4
 ReactGA.initialize("G-2C81Y8CLGR");
-ReactGA.pageview(window.location.pathname + window.location.search);
+ReactGA.send({ hitType: "pageview", page: "/", title: "Home" });
 root.render(
   <BrowserRouter>
 
