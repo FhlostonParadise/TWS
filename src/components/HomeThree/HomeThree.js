@@ -1,5 +1,5 @@
 import React from "react";
-import FooterThree from "../common/Footer/FooterThree";
+
 import Menu from "../common/Menu/Menu";
 import AboutThree from "./AboutThree";
 import BlogThree from "./BlogThree";
