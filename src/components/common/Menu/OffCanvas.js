@@ -13,7 +13,7 @@ const OffCanvas = ({ setOffCanvas, isOffCanvas }) => {
       >
         <div className="offcanvas_area-logo">
           <span className="offcanvas__close-btn">
-            <button onClick={() => setOffCanvas(false)}>
+            <button onClick={() => setOffCanvas(false)} title="offcanvas">
               <i className="fal fa-times" />
             </button>
           </span>
