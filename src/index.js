@@ -12,8 +12,10 @@ import ReactGA from 'react-ga';
 const root = ReactDOM.createRoot(document.getElementById("root"));
 //Initialize GA4
 ReactGA.initialize("G-2C81Y8CLGR");
+ReactGA.pageview(window.location.pathname + window.location.search);
 root.render(
   <BrowserRouter>
+  
     <ScrollTop />
     {/* <React.StrictMode> */}
     <App />
