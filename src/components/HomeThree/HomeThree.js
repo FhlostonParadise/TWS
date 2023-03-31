@@ -7,7 +7,9 @@ import SliderHomeThree from "./SliderHomeThree";
 import FAQBanner from "../Pages/FAQ/FaqBanner";
 import Accordion from "../Pages/FAQ/Accordion";
 import FooterTwo from "../common/Footer/FooterTwo";
-
+import ReactGA from 'react-ga';
+ReactGA.initialize("G-2C81Y8CLGR");
+ReactGA.pageview(window.location.pathname + window.location.search);
 const HomeThree = () => {
   return (
     <>
