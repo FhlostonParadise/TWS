@@ -7,8 +7,11 @@ import ScrollTop from "./components/common/ScrollTop";
 import reportWebVitals from "./reportWebVitals";
 import "./index.scss";
 import App from "./App";
+import ReactGA from 'react-ga';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
+//Initialize GA4
+ReactGA.initialize("G-2C81Y8CLGR");
 root.render(
   <BrowserRouter>
     <ScrollTop />
