@@ -20,6 +20,7 @@ root.render(
     <ScrollTop />
     {/* <React.StrictMode> */}
     <App />
+    
     {/* </React.StrictMode> */}
   </BrowserRouter>
 );
