@@ -1,6 +1,7 @@
 import React from "react";
 
 
+
 const AboutThree = () => {
   return (
     <>
@@ -24,6 +25,11 @@ const AboutThree = () => {
                 <p>
                 At this point in my life, I find power and possibility within my many and intersecting identities, and I bring this into the therapy space. I aim to bring all parts of me into my practice, and hope to create a space in which my clients can too.
                 </p>
+                <div>
+                  <a href="https://www.psychologytoday.com/profile/893646" target="_blank">
+                  <img src="assets/img/verified.png" alt="verified" ></img>
+                  </a>
+                </div>
                 
                 <div>
                   {/* <Link to="/team-details" className="tp-btn mb-35">
