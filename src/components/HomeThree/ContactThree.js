@@ -1,18 +1,25 @@
 import React from "react";
-import { useRef } from 'react';
+import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 
 export const ContactThree = () => {
+  const [success, setSuccess] = useState(null);
   const form = useRef();
+ 
 
   const sendEmail = (e) => {
     e.preventDefault();
+ 
 
     emailjs.sendForm('service_y6hrzok', 'template_ufsdu9l', form.current, 'fO5LmFnaQfr9m30SY')
       .then((result) => {
           console.log(result.text);
+          setSuccess(true);
+ 
       }, (error) => {
           console.log(error.text);
+          setSuccess(false);
+ 
       });
   };
 
@@ -86,7 +93,9 @@ export const ContactThree = () => {
                       </svg>
                     </span>
                   </button>
+                  {success && "      Your Message was sent successfully!"}
                 </form>
+                
               </div>
             </div>
           </div>
