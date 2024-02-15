@@ -12,6 +12,7 @@ import TopAbout from "./TopAbout";
 import TopCtaArea from "./TopCtaArea";
 import TopFooter from "../common/TopFooter/TopFooter";
 import HomeSlider from "./HomeSlider";
+import { Analytics } from '@vercel/analytics/react';
 
 const Home = () => {
   return (
@@ -29,6 +30,7 @@ const Home = () => {
       <FullScreenBtn />
       <TopFooter />
       <Footer />
+      <Analytics />
     </>
   );
 };
