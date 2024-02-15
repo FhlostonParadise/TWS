@@ -8,7 +8,7 @@
         }, {
             "id":2,
             "question": "Do you accept insurance?",
-            "ans": "I accept UnitedHealthCare, Optum, Aetna, Cigna, Oxford Health Plans, Oscar, and many of their subsidiaries. If your insurance isn’t listed above, you can still receive superbills, or invoices of services, to submit to your insurance for partial reimbursement. I encourage you to check with your insurance company about their out-of-network coverage."
+            "ans": "I accept United HealthCare, Optum, Aetna, Cigna, Oxford Health Plans, Oscar, Blue Shield of California, Anthem Blue Cross California, Blue Cross Blue Shield of Massachusetts and many of their subsidiaries. If your insurance isn’t listed above, you can still receive superbills, or invoices of services, to submit to your insurance for partial reimbursement. I encourage you to check with your insurance company about their out-of-network coverage."
         }, {
             "id":3,
             "question": "What if I don’t use insurance, i.e. I’m a private pay client?",
