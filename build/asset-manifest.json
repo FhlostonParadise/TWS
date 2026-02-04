@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b410b502.css",
-    "main.js": "/static/js/main.d609c33c.js",
+    "main.js": "/static/js/main.2de27e87.js",
     "static/js/206.998d63f3.chunk.js": "/static/js/206.998d63f3.chunk.js",
     "static/media/fa-duotone-900.ttf": "/static/media/fa-duotone-900.3785dc4992830f749773.ttf",
     "static/media/fa-light-300.ttf": "/static/media/fa-light-300.431c25ff502d4460d3ec.ttf",
@@ -39,6 +39,6 @@
   },
   "entrypoints": [
     "static/css/main.b410b502.css",
-    "static/js/main.d609c33c.js"
+    "static/js/main.2de27e87.js"
   ]
 }
