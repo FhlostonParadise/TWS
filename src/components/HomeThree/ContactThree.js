@@ -15,7 +15,9 @@ export const ContactThree = () => {
     setSuccess(null);
     setError(null);
 
-    emailjs.sendForm('service_y6hrzok', 'template_ufsdu9l', form.current, 'fO5LmFnaQfr9m30SY')
+    emailjs.sendForm('service_y6hrzok', 'template_ufsdu9l', form.current, {
+      publicKey: 'fO5LmFnaQfr9m30SY',
+    } )
       .then((result) => {
           console.log(result.text);
           setSuccess(true);
