@@ -11,7 +11,7 @@ export const ContactThree = () => {
     e.preventDefault();
  
 
-    emailjs.sendForm('service_y6hrzok', 'template_ufsdu9l', form.current, 'CfO5LmFnaQfr9m30SY')
+    emailjs.sendForm('service_y6hrzok', 'template_ufsdu9l', form.current, 'fO5LmFnaQfr9m30SY')
       .then((result) => {
           console.log(result.text);
           setSuccess(true);
@@ -107,4 +107,5 @@ export const ContactThree = () => {
 };
 
 export default ContactThree;
+
 
