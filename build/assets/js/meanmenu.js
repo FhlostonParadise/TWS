@@ -41,7 +41,7 @@
       meanShowChildren: true, // true to show children in the menu, false to hide them
       meanExpandableChildren: true, // true to allow expand/collapse children
       meanRemoveAttrs: false, // true to remove classes and IDs, false to keep them
-      onePage: false, // set to true for one page sites
+      onePage: true, // set to true for one page sites
       meanDisplay: "block", // override display method for table cell based layouts e.g. table-cell
       removeElements: "", // set to hide page elements
     };

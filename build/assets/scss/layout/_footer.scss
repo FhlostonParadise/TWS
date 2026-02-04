@@ -20,13 +20,13 @@
                 & span {
                     list-style: none;
                     font-size: 16px;
-                    color: var(--tp-common-white);
+                    color: var(--tp-grey-5);
                     line-height: 35.5px;
                 }
 
                 a {
                     font-size: 16px;
-                    color: var(--tp-common-white);
+                    color: var(--tp-grey-5);
                     line-height: 35.5px;
                 }
                 &:hover {
@@ -50,7 +50,7 @@
                     color: var(--tp-grey-5);
                     line-height: 35.5px;
                     &:hover {
-                        color: var(--tp-common-white);
+                        color: var(--tp-grey-5);
     
                     }
                 }
@@ -88,7 +88,7 @@
         font-size: 16px;
         right: 0;
         text-transform: uppercase;
-        color: var(--tp-common-white);
+        color: var(--tp-grey-5);
         font-weight: 500;
 
         & i {
@@ -124,7 +124,7 @@
         font-size: 16px;
         right: 0;
         text-transform: uppercase;
-        color: var(--tp-common-white);
+        color: var(--tp-grey-5);
         font-weight: 500;
         &:hover{
             opacity: .8;
@@ -139,7 +139,7 @@
 .tp-footer__top {
     &-title {
         font-size: 36px;
-        color: var(--tp-common-white);
+        color: var(--tp-grey-5);
 
         @media #{$lg} {
             font-size: 30px;
@@ -179,7 +179,7 @@
             right: 0;
             text-align: center;
             font-size: 35px;
-            color: var(--tp-common-white);
+            color: var(--tp-grey-5);
             opacity: 0;
             visibility: hidden;
         }

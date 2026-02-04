@@ -4,22 +4,36 @@ import emailjs from '@emailjs/browser';
 
 export const ContactThree = () => {
   const [success, setSuccess] = useState(null);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(null);
   const form = useRef();
  
 
   const sendEmail = (e) => {
     e.preventDefault();
- 
+    setLoading(true);
+    setSuccess(null);
+    setError(null);
 
     emailjs.sendForm('service_y6hrzok', 'template_ufsdu9l', form.current, 'fO5LmFnaQfr9m30SY')
       .then((result) => {
           console.log(result.text);
           setSuccess(true);
- 
+          setLoading(false);
+          // Reset form after successful submission
+          form.current.reset();
+          // Auto-hide success message after 5 seconds
+          setTimeout(() => setSuccess(null), 5000);
       }, (error) => {
           console.log(error.text);
           setSuccess(false);
- 
+          setError('Failed to send message. Please try again.');
+          setLoading(false);
+          // Auto-hide error message after 5 seconds
+          setTimeout(() => {
+            setError(null);
+            setSuccess(null);
+          }, 5000);
       });
   };
 
@@ -64,8 +78,8 @@ export const ContactThree = () => {
                     name="message"
                     placeholder="Enter your mail"
                   ></textarea>
-                  <button type="submit" className="tp-btn-border">
-                    Send Message
+                  <button type="submit" className="tp-btn-border" disabled={loading}>
+                    {loading ? 'Sending...' : 'Send Message'}
                     <span>
                       <svg
                         width="22"
@@ -93,7 +107,58 @@ export const ContactThree = () => {
                       </svg>
                     </span>
                   </button>
-                  {success && "      Your Message was sent successfully!"}
+                  
+                  {/* Notification Messages */}
+                  {success === true && (
+                    <div 
+                      style={{
+                        marginTop: '15px',
+                        padding: '12px 15px',
+                        backgroundColor: '#d4edda',
+                        color: '#155724',
+                        border: '1px solid #c3e6cb',
+                        borderRadius: '5px',
+                        fontSize: '14px',
+                        fontWeight: '500'
+                      }}
+                    >
+                      ✅ Your message was sent successfully! We'll get back to you soon.
+                    </div>
+                  )}
+                  
+                  {(success === false || error) && (
+                    <div 
+                      style={{
+                        marginTop: '15px',
+                        padding: '12px 15px',
+                        backgroundColor: '#f8d7da',
+                        color: '#721c24',
+                        border: '1px solid #f5c6cb',
+                        borderRadius: '5px',
+                        fontSize: '14px',
+                        fontWeight: '500'
+                      }}
+                    >
+                      ❌ {error || 'Failed to send message. Please try again.'}
+                    </div>
+                  )}
+                  
+                  {loading && (
+                    <div 
+                      style={{
+                        marginTop: '15px',
+                        padding: '12px 15px',
+                        backgroundColor: '#d1ecf1',
+                        color: '#0c5460',
+                        border: '1px solid #bee5eb',
+                        borderRadius: '5px',
+                        fontSize: '14px',
+                        fontWeight: '500'
+                      }}
+                    >
+                      📤 Sending your message...
+                    </div>
+                  )}
                 </form>
                 
               </div>
